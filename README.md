@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![./images/screenshot_desktop.png](./screenshot_desktop.jpg)
+![screenshot](./images/screenshot_desktop.png)
 
 
 ### Links
@@ -48,7 +48,7 @@ Users should be able to:
 ### What I learned
 
 Working on this project I was not too concerned about getting the design as perfect as possible, but instead I focused more on the responsiveness part. Thinking of the card as a component, I've tried to use flex to position the elements on the screen instead of using position relative and absolute as I used to. Also, this is the first project I've built with mobile-first workflow in mind.
-From this project on I'll try to use rem instead of px for fonts, margins, paddings, etc.
+From this project on I'll try to use rem and em instead of px for fonts, margins, paddings, etc.
 
 
 ## Author
