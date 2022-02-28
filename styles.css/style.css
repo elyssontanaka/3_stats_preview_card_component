@@ -44,16 +44,18 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px white solid;
 }
 .card-container {
     max-width: 33rem;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     border-radius: 1rem;
     overflow: hidden;
     background: var(--primary-card-bg);
 }
+
+/* background image */
 
 .card-image {
     width: 100%;
@@ -63,6 +65,8 @@ body {
     background-repeat: no-repeat;
     background-position: 50%;
 }
+
+/* main info */
 
 .card-info {
     text-align: center;
@@ -93,12 +97,10 @@ body {
     display: flex;
     flex-direction: column;
     margin: 2.4rem 0;
-    border: 1px solid white;
 }
 
 .box {
     margin: 1rem 0;
-    border: 1px white solid;
 }
 
 .number-display, .name-display {
@@ -106,7 +108,7 @@ body {
 }
 
 .number-display {
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     font-weight: 700;
     color: var(--neutral-main-heading);
 }
@@ -120,6 +122,8 @@ body {
 .attribution {
     font-size: 1.1rem;
     text-align: center;
+    margin: 1rem 0;
+    color: var(--neutral-main-heading);
 }
 
 .attribution a {
@@ -133,14 +137,12 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
-        border: 1px white solid;
+        justify-content: center;
     }
     .card-container {
         min-width: 111rem;
         flex-direction: row-reverse;
         justify-content: center;
-        border: 1px solid white;
     }
     .card-image {
         width: 50%;
@@ -149,7 +151,6 @@ body {
     .card-info {
         width: 50%;
         text-align: start;
-        border: 1px white solid;
         padding: 7rem;
     }
 
@@ -163,8 +164,9 @@ body {
     }
 
     .description {
-        padding-right: 2rem;
+        width: 85%;
     }
+
     .stats-container {
         width: 85%;
         flex-direction: row;
@@ -176,8 +178,5 @@ body {
 
     .box {
         margin: 0;
-    }
-    .attribution {
-        display: none;
     }
 }
